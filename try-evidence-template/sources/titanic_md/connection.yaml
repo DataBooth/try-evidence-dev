@@ -1,0 +1,5 @@
+# This file was automatically generated
+name: titanic_md
+type: motherduck
+options:
+  database: titanic

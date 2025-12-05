@@ -1,0 +1,23 @@
+[project]
+name = "try-evidence-dev"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Michael Booth", email = "michael@databooth.com.au"},
+]
+dependencies = [
+    "duckdb>=1.0.0",
+    "pandas>=2.2.2",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "Apache License 2.0"}
+
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.dev-dependencies]
+notebook = [
+    "notebook>=7.2.1",
+]
